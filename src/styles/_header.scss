@@ -1,0 +1,51 @@
+.header {
+  padding: 35px 0;
+  position: relative;
+  &__content {
+    @extend %flexCenter;
+    color: #fff;
+    gap: 40px;
+    justify-content: space-between;
+  }
+  &__logo {
+    display: flex;
+    align-items: center;
+    & svg {
+      max-width: 52px;
+      max-height: 45px;
+    }
+    & h1 {
+      font-size: 12px;
+    }
+  }
+  &__nav {
+    width: 100%;
+    max-width: 680px;
+  }
+  &__list {
+    @extend %flexCenter;
+    gap: 40px;
+    justify-content: space-between;
+    &-item {
+      font-size: 18px;
+    }
+  }
+  &__handlers {
+    @extend %flexCenter;
+    gap: 20px;
+  }
+  &__btn {
+    white-space: nowrap;
+    &_bordered {
+      @extend %buttonBordered;
+      padding: 16px 28px;
+      font-size: 18px;
+    }
+    &_gradient {
+      @extend %buttonGradient;
+      padding: 20px 40px;
+      font-size: 18px;
+      font-weight: 700;
+    }
+  }
+}
