@@ -4,6 +4,7 @@
   justify-content: center;
 }
 
+
 .header__btn_gradient {
   border-radius: 20px;
   background: linear-gradient(87deg, #dc6b30 17.99%, #e4864f 49.64%, #ffbe82 72.7%, #e49031 93.02%);
@@ -27,7 +28,8 @@ body {
   font-family: "Gotham Pro";
   font-style: normal;
   font-weight: 400;
-  background-color: #0e0e12;
+  background-color: #8f4119;
+
 }
 
 img {
